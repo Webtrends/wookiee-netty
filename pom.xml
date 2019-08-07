@@ -23,7 +23,7 @@
 
     <groupId>com.webtrends</groupId>
     <artifactId>wookiee-netty</artifactId>
-    <version>1.2-jb_akkaUpdate-SNAPSHOT</version>
+    <version>1.2-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Component: Netty (HTTP)</name>
     <description>Apache Netty support for Wookiee, enabled the HTTP protocol for Wookie with automatic command routing and simple trait support.</description>
@@ -173,14 +173,6 @@
             <artifactId>scalatest-maven-plugin</artifactId>
             <version>1.0-M2</version>
         </dependency>
-        <!--
-        <dependency>
-            <groupId>com.typesafe.akka</groupId>
-            <artifactId>akka-testkit_${scala.artifact.version}</artifactId>
-            <version>${akka.version}</version>
-            <scope>test</scope>
-        </dependency>
-        -->
         <dependency>
             <groupId>org.specs2</groupId>
             <artifactId>specs2-core_${scala.artifact.version}</artifactId>
